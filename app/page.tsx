@@ -1,7 +1,7 @@
 const WINDOWS =
-  "https://github.com/Hammad15/notes_maker/releases/latest/download/CreateNotes_V1.0.2_Windows_x64.msi"
+  "https://github.com/Hammad15/notes_maker/releases/download/v1.2.0/LectureText_V1.2.0_Windows_x64.msi"
 const MAC =
-  "https://github.com/Hammad15/notes_maker/releases/latest/download/CreateNotes_V1.0.2_Mac.dmg"
+  "https://github.com/Hammad15/notes_maker/releases/download/v1.2.0/LectureText_V1.2.0_Mac.dmg"
 
 export default function Home() {
   return (
