@@ -28,19 +28,42 @@ body {
   line-height: 1.5;
 }
 
-main {
+.page {
   width: min(44rem, calc(100% - 2.5rem));
   margin: 0 auto;
   padding: 4.75rem 0 5.5rem;
 }
 
+header,
+main {
+  margin: 0;
+  padding: 0;
+}
+
 .product {
+  position: relative;
   margin: 0;
   font-size: 0.8rem;
   font-weight: 650;
   letter-spacing: 0.18em;
-  text-transform: uppercase;
   color: var(--accent);
+}
+
+.product [aria-hidden="true"] {
+  text-transform: uppercase;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
 }
 
 h1 {
@@ -52,7 +75,7 @@ h1 {
   letter-spacing: -0.025em;
 }
 
-h1 span {
+h1 .accent {
   color: var(--accent);
 }
 
@@ -84,6 +107,17 @@ h1 span {
 
 .downloads a:hover {
   transform: translateY(-1px);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+@media (forced-colors: active) {
+  :focus-visible {
+    outline-color: CanvasText;
+  }
 }
 
 .fine {
