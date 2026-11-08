@@ -1,12 +1,12 @@
 :root {
   color-scheme: dark;
-  --bg: #12110f;
-  --ink: #f4f0e6;
-  --muted: #b7b0a4;
-  --line: #3a342c;
-  --accent: #f0c27a;
-  --button: #f4f0e6;
-  --button-ink: #16140f;
+  --bg: oklch(0 0 0);
+  --ink: oklch(0.96 0 0);
+  --muted: oklch(0.72 0.02 305);
+  --line: oklch(0.5 0.04 305);
+  --accent: oklch(0.78 0.13 305);
+  --button: oklch(0.48 0.14 305);
+  --button-ink: oklch(0.97 0.01 305);
 }
 
 * {
@@ -21,7 +21,7 @@ body {
 body {
   min-height: 100vh;
   background:
-    radial-gradient(ellipse at top left, #2c261c 0%, transparent 46%),
+    radial-gradient(ellipse at top left, oklch(0.22 0.05 305) 0%, transparent 46%),
     var(--bg);
   color: var(--ink);
   font-family: "Segoe UI", system-ui, sans-serif;
