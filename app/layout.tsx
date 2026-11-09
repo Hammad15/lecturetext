@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "LectureText",
+  title: "LectureText: local lecture transcription and study notes",
   description:
     "Other tools help you jump back into the video. This one helps you stop needing the video.",
 }

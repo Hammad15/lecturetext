@@ -30,20 +30,24 @@ export default function Home() {
             Download for Mac
           </a>
         </div>
-        <p className="fine" id="mac-install">
-          On a Mac, open the disk image, then allow LectureText once in System Settings under Privacy &amp; Security.
-        </p>
-        <section aria-labelledby="how-it-works">
-          <h2 id="how-it-works">How it works</h2>
-          <ol>
-            <li>Choose a lecture video or audio file that is already on the computer.</li>
-            <li>LectureText transcribes that recording on the computer and writes Markdown and PDF study notes.</li>
-            <li>Read the notes. The recording can stay closed.</li>
-          </ol>
+        <section aria-labelledby="what-it-does">
+          <h2 id="what-it-does">What it does</h2>
+          <p>
+            LectureText transcribes a lecture file that is already on the computer, then writes Markdown and PDF study notes.
+          </p>
         </section>
-        <section aria-labelledby="no-account">
-          <h2 id="no-account">No account</h2>
-          <p>Local notes need no account. The lecture and the notes stay on the computer.</p>
+        <section aria-labelledby="who-it-is-for">
+          <h2 id="who-it-is-for">Who it is for</h2>
+          <p>
+            A student who wants notes with the recording closed, and no account. Local notes need no account. The lecture and the notes stay on the computer.
+          </p>
+        </section>
+        <section aria-labelledby="how-to-install">
+          <h2 id="how-to-install">How to install</h2>
+          <p>Download the Windows MSI or the Mac disk image.</p>
+          <p className="fine" id="mac-install">
+            On a Mac, open the disk image, then allow LectureText once in System Settings under Privacy &amp; Security.
+          </p>
         </section>
       </main>
     </div>

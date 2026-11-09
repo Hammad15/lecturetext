@@ -151,3 +151,7 @@ section p {
   max-width: 38rem;
   margin: 0;
 }
+
+section p.fine {
+  margin-top: 0.95rem;
+}
