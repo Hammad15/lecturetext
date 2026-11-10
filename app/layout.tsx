@@ -4,7 +4,7 @@ import "./globals.css"
 export const metadata: Metadata = {
   title: "LectureText: local lecture transcription and study notes",
   description:
-    "Other tools help you jump back into the video. This one helps you stop needing the video.",
+    "LectureText turns a lecture recording on your computer into notes you can study without the video. No account needed.",
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
