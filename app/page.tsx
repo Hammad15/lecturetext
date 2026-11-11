@@ -3,8 +3,22 @@ const WINDOWS =
 const MAC =
   "https://github.com/Hammad15/notes_maker/releases/download/v1.2.0/LectureText_V1.2.0_Mac.dmg"
 
+const websiteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "LectureText",
+  url: "https://www.lecturetext.com/",
+}
+
 export default function Home() {
   return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(websiteJsonLd).replace(/</g, "\\u003c"),
+        }}
+      />
     <div className="page">
       <header>
         <p className="product">
@@ -94,5 +108,6 @@ export default function Home() {
         </section>
       </main>
     </div>
+    </>
   )
 }
