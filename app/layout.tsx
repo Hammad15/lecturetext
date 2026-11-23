@@ -4,7 +4,7 @@ import "./globals.css"
 export const metadata: Metadata = {
   title: "LectureText: local lecture transcription and study notes",
   description:
-    "LectureText turns a lecture recording on your computer into notes you can study without the video. No account needed.",
+    "LectureText turns a lecture recording on your computer into notes you can study without the video. Clean and simple. No account or subscription needed.",
   openGraph: {
     siteName: "LectureText",
   },
