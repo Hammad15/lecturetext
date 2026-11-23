@@ -1,7 +1,7 @@
 const WINDOWS =
-  "https://github.com/Hammad15/notes_maker/releases/download/v1.2.0/LectureText_V1.2.0_Windows_x64.msi"
+  "https://github.com/Hammad15/notes_maker/releases/download/v2.0.0/LectureText_V2.0.0_Windows_x64.msi"
 const MAC =
-  "https://github.com/Hammad15/notes_maker/releases/download/v1.2.0/LectureText_V1.2.0_Mac.dmg"
+  "https://github.com/Hammad15/notes_maker/releases/download/v2.0.0/LectureText_V2.0.0_Mac.dmg"
 
 const websiteJsonLd = {
   "@context": "https://schema.org",
