@@ -13,6 +13,13 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
+      <head>
+        <script
+          data-goatcounter="https://lecturetext.goatcounter.com/count"
+          async
+          src="https://gc.zgo.at/count.js"
+        />
+      </head>
       <body>{children}</body>
     </html>
   )

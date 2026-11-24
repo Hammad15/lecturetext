@@ -23,10 +23,19 @@ export default function Home() {
       <main>
         <h1>Stop needing the video. Clean and simple. No account or subscription needed.</h1>
         <div className="downloads" role="group" aria-label="Download LectureText">
-          <a href={WINDOWS} aria-label="Download for Windows, MSI installer">
+          <a
+            href={WINDOWS}
+            aria-label="Download for Windows, MSI installer"
+            data-goatcounter-click="download-windows"
+          >
             Download for Windows
           </a>
-          <a className="quiet" href={MAC} aria-label="Download for Mac, disk image">
+          <a
+            className="quiet"
+            href={MAC}
+            aria-label="Download for Mac, disk image"
+            data-goatcounter-click="download-mac"
+          >
             Download for Mac
           </a>
         </div>
